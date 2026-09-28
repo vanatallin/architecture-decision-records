@@ -8,7 +8,7 @@
 | Supersedes     | N/A |
 | Superseded by: | N/A |
 | Tickets        | TBD |
-| Other docs:    | [architecture.md](../../../../amortized-ai/amortized/docs/architecture.md) |
+| Other docs:    | [architecture.md](https://github.com/amortized-ai/amortized/blob/main/docs/architecture.md) |
 
 ## What
 
@@ -201,7 +201,7 @@ Unchanged relative to the product’s orchestration model:
 - MLflow is the only artifact store. Amortized does not write S3 directly.
 - Production compute backend is Kubernetes Jobs.
 
-Details of job state machine, builders, and APIs: [architecture.md](../../../../amortized-ai/amortized/docs/architecture.md).
+Details of job state machine, builders, and APIs: [architecture.md](https://github.com/amortized-ai/amortized/blob/main/docs/architecture.md).
 
 ### Authentication and authorization
 
@@ -278,7 +278,7 @@ Studio today can call amortized-server and MLflow through nginx from the browser
 
 ## References
 
-* [architecture.md](../../../../amortized-ai/amortized/docs/architecture.md) — control plane, jobs, artifacts, and APIs as implemented
+* [architecture.md](https://github.com/amortized-ai/amortized/blob/main/docs/architecture.md) — control plane, jobs, artifacts, and APIs as implemented
 * [opendatahub-io/rhoai-mcp](https://github.com/opendatahub-io/rhoai-mcp) — RHOAI MCP plugins, TokenReview, impersonation, SAR
 * [RHOAI MCP catalog](https://www.redhat.com/en/blog/mcp-catalog-here-discover-deploy-and-connect-red-hat-openshift-ai)
 * [Diagrams](../diagrams/) — cluster topology, request path, operator tenancy, trust flow (draw.io + PNG)
